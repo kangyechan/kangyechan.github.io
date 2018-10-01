@@ -1,6 +1,8 @@
 # Site
 title:              HAMANG
-bio:                'We can make our plans.\nBut the lord determines our steps.\n(proverbs 16:9)'
+bio:                |+
+We can make our plans.
+But the lord determines our steps.(proverbs 16:9)
 description:        "This Git is Yechan's project repository."
 reading_time:       true
 words_per_minute:   200
@@ -40,7 +42,7 @@ disqus_shortname:   taylantatli
 #email:
 #twitter:            username
 facebook:           username
-github-url:         https://github.com/kangyechan
+github-url:         kangyechan
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
