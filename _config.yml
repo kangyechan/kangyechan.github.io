@@ -1,11 +1,11 @@
 # Site
 title:              HAMANG
-bio:                "Yechan's project page."
-description:        "This Git is Yechan's project repository."
+bio:                "Hammer of God, proverbs1609"
+description:        "사람이 마음으로 자기의 길을 계획할지라도 그의 걸음을 인도하시는 이는 여호와시니라 (잠 16:9)"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+logo:               'assets/img/gitprofile.jpg'
+background:         'assets/img/gitbackground.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ko_KR
 url:                https://kangyechan.github.io
