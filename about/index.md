@@ -9,18 +9,21 @@ comments: false
 <center>25 years old in HGU</center>
 
 ## Features
-* Web service
-  * html, css
-  * js, jquery
-  * ajax, php
+* FRONT END
+  * HTML
+  * CSS
+  * Javascript
+* BACK END
+  * php
+  * JAVA
+  * MySQL
+  * firebase
+* Web Service
+  * custom
   * wordpress
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
+* Application
+  * Android
+  * flutter
 * MathJax support
 
 ## Preview
