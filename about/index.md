@@ -9,6 +9,12 @@ comments: false
 <center>25 years old in HGU</center>
 
 ## Features
+* Web Service
+  * custom
+  * wordpress
+* Application
+  * Android
+  * flutter
 * FRONT END
   * HTML
   * CSS
@@ -18,12 +24,7 @@ comments: false
   * JAVA
   * MySQL
   * firebase
-* Web Service
-  * custom
-  * wordpress
-* Application
-  * Android
-  * flutter
+
 * MathJax support
 
 ## Preview
@@ -34,7 +35,7 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+<!--See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.-->
 
 ## Getting Started
 
