@@ -6,11 +6,11 @@ date: 2016-03-21
 comments: false
 ---
 
-<center>25 years old, HGU</center>
+<center>25 years old in HGU</center>
 
 ## Features
-* Minimal, you can focus on your content
-* Responsive
+* HTML
+  * gg 
 * Disqus integration
 * Syntax highlighting
 * Optional post image
@@ -32,6 +32,6 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 
 ## Getting Started
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+<!--To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
 
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}-->
