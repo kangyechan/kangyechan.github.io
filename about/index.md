@@ -35,8 +35,6 @@ comments: false
 <!--See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.-->
 
 ## Contributor
+<!--To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.-->
 
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[CSEE](http://csee.handong.edu/){: .btn}[NEWSLETTERS](https://github.com/TaylanTatli/Moon){: .btn}[NewWEB](#){: .btn}
