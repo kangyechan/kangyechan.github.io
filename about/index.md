@@ -9,8 +9,11 @@ comments: false
 <center>25 years old in HGU</center>
 
 ## Features
-* HTML
-  * gg 
+* Web service
+  * html, css
+  * js, jquery
+  * ajax, php
+  * wordpress
 * Disqus integration
 * Syntax highlighting
 * Optional post image
