@@ -8,27 +8,24 @@ comments: false
 
 <center>25 years old in HGU</center>
 
-## Features
+## Development
 * Web Service
-  * custom
-  * wordpress
+  * Custom
+  * Wordpress
 * Application
   * Android
-  * flutter
-* FRONT END
+  * Flutter
+* Front End
   * HTML
   * CSS
   * Javascript
-* BACK END
-  * php
+* Back End
+  * PHP
   * JAVA
   * MySQL
-  * firebase
+  * Firebase
 
-* MathJax support
-
-## Preview
-
+## Design
 {% capture images %}
     https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
     https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
@@ -37,7 +34,8 @@ comments: false
 
 <!--See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.-->
 
-## Getting Started
+## Contributor
+
 
 <!--To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
 
