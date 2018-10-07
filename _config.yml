@@ -5,7 +5,7 @@ description:        "사람이 마음으로 자기의 길을 계획할지라도 
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/gitprofile.jpg'
-background:         'assets/img/gitbackground.jpg'
+background:         'assets/img/GitBackground_1003.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ko_KR
 url:                https://kangyechan.github.io
