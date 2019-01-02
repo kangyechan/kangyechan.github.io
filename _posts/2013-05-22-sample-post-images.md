@@ -2,12 +2,12 @@
 layout: post
 title: "AWS Educate 계정 가입"
 date: 2018-01-02
-excerpt: "AWS Educate 계정 가입 절차"
+excerpt: "AWS 무료 계정 생성 후 AWS Educate 계정 가입 절차"
 tags: [aws, educate, images]
 comments: true
 ---
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+클라우드 서비스 관리를 위한 AWS 무료 계정 생성과 Educate 계정 가입 절차
 
 ### Figures (for images or video)
 
