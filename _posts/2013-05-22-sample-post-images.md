@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "A Post with Images"
-date: 2013-05-22
-excerpt: "Examples and code for displaying images in posts."
-tags: [sample post, images, test]
+title: "AWS Educate 계정 가입"
+date: 2018-01-02
+excerpt: "AWS Educate 계정 가입 절차"
+tags: [aws, educate, images]
 comments: true
 ---
 
