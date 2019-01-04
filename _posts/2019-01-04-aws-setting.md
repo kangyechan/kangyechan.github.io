@@ -26,13 +26,11 @@ AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 �
 먼저 AWS 회원가입을 진행한다.  
 AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 한다. (example@handong.edu)  
 
-{% raw %}
 {% capture images %}
 	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
 	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=2 %}
-{% endraw %}
 
 #### AWS Educate 가입
 
