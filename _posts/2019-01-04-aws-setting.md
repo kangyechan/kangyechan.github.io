@@ -17,34 +17,18 @@ AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 �
 
 #### AWS 회원가입
 
-<figure class="half">
-	<img src="{{ site.url }}/assets/img/aws/aws_main.JPG">
-	<img src="{{ site.url }}/assets/img/aws/aws_join.JPG">
-	<figcaption><a href="https://aws.amazon.com/ko/">AWS Home</a></figcaption>
-</figure>
-
-먼저 AWS 회원가입을 진행한다.  
-AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 한다. (example@handong.edu)  
-
 {% capture images %}
 	https://github.com/kangyechan/kangyechan.github.io/blob/master/assets/img/aws/aws_main.JPG?raw=true
 	https://github.com/kangyechan/kangyechan.github.io/blob/master/assets/img/aws/aws_join.JPG?raw=true
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=2 %}
 
+먼저 AWS 회원가입을 진행한다.  
+AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 한다. (example@handong.edu)  
+
 #### AWS Educate 가입
 
 콘솔에 로그인 한 후 주소창에 `www.awseducate.com/registration`를 입력해 Educate 계정 가입 페이지로 이동
-
-{% highlight html %}
-<figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
-{% endhighlight %}
-
-And you'll get something that looks like this:
 
 <figure class="half">
 	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
