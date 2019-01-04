@@ -8,11 +8,13 @@ comments: true
 ---
 
 클라우드 서비스 관리를 위한 AWS 무료 계정 생성과 Educate 계정 가입 절차
-
-### AWS Educate의 두 가지 방법
+AWS Educate는 기존 AWS 크라우드 용량에 더하여 연 100불의 크레딧을 추가적으로 받을 수 있습니다.(매년 갱신 가능)
+AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 크레딧을 제공하며 소진시 계정이 중지됩니다.(결제 카드 등록 X)
 
 #### AWS Educate
 #### AWS Educate Starter
+
+### AWS Educate Starter 가입
 
 <figure>
 	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
