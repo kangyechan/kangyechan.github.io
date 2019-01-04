@@ -18,7 +18,7 @@ AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 �
 #### AWS 회원가입
 
 <figure>
-	<a href="#"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
+	<a href="#"><img src="{{ site.url }}/assets/img/aws/aws_main.JPG"></a>
 	<figcaption><a href="https://aws.amazon.com/ko/">AWS 홈페이지</a></figcaption>
 </figure>
 
