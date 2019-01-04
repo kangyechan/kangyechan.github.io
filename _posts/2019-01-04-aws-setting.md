@@ -12,8 +12,7 @@ AWS Educate는 기존 계정 용량에 더하여 연 100불의 크레딧을 추�
 AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 크레딧을 제공하며 소진시 계정이 중지된다.  
 (결제 카드 등록 X)
 
-### AWS Educate
-### AWS Educate Starter
+### AWS Educate & AWS Educate Starter
 
 #### AWS 회원가입
 
@@ -30,10 +29,11 @@ AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 �
 
 콘솔에 로그인 한 후 주소창에 `www.awseducate.com/registration`를 입력해 Educate 계정 가입 페이지로 이동
 
-<figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+<figure class="third">
+	<img src="./assets/img/aws/educate_join.JPG">
+	<img src="./assets/img/aws/educate_join_1.JPG">
+	<img src="./assets/img/aws/educate_join_2.JPG">
+	<figcaption>Three images.</figcaption>
 </figure>
 
 #### Three Up
@@ -51,12 +51,6 @@ Apply the `third` class like so to display three images side by side that share 
 
 And you'll get something that looks like this:
 
-<figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<figcaption>Three images.</figcaption>
-</figure>
 
 ### Alternative way
 
