@@ -11,7 +11,7 @@ comments: true
 AWS Educate는 기존 AWS 크라우드 용량에 더하여 연 100불의 크레딧을 추가적으로 받을 수 있습니다.(매년 갱신 가능)
 AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 크레딧을 제공하며 소진시 계정이 중지됩니다.(결제 카드 등록 X)
 
-### AWS Educate\nAWS Educate Starter
+### AWS Educate  AWS Educate Starter
 
 #### AWS Educate Starter 가입
 
