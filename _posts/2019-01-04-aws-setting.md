@@ -17,12 +17,14 @@ AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 �
 
 #### AWS 회원가입
 
-<figure>
-	<a href="#"><img src="{{ site.url }}/assets/img/aws/aws_main.JPG"></a>
-	<figcaption><a href="https://aws.amazon.com/ko/">AWS 홈페이지</a></figcaption>
+<figure class="half">
+	<img src="{{ site.url }}/assets/img/aws/aws_main.JPG">
+	<img src="{{ site.url }}/assets/img/aws/aws_join.JPG">
+	<figcaption><a href="https://aws.amazon.com/ko/">AWS Home</a></figcaption>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+AWS 회원가입을 진행합니다.  
+AWS Educate에 가입하기 위해서는 학교 mail을 사용해야 합니다. (example@handong.edu)  
 
 #### Two Up
 
