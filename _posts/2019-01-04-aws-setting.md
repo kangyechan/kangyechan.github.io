@@ -29,7 +29,7 @@ AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 �
 {% raw %}
 {% capture images %}
 	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	{{ site.url }}/assets/img/aws/aws_join.JPG
+	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=2 %}
 {% endraw %}
