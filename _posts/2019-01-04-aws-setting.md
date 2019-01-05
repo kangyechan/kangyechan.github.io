@@ -49,8 +49,8 @@ AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 �
 AWS Educate Starter 선택 후 메일인증 진행
 
 <figure class="half">
-	<img src="{{site.url}}/assets/img/aws/educate_join_2.JPG">
 	<img src="{{site.url}}/assets/img/aws/educate_join_4.JPG">
+	<img src="{{site.url}}/assets/img/aws/educate_join_5.JPG">
 	<figcaption>AWS Educate Starter</figcaption>
 </figure>
 
@@ -69,51 +69,7 @@ AWS Account ID 는 AWS홈페이지 로그인 후 내 계정에서 확인 가능
 Account ID 입력 후 메일인증 진행  
 이용약관 스크롤을 끝가지 내린 후 `동의함`체크 `NEXT`로 인증 완료
 
-
-Apply the `third` class like so to display three images side by side that share the same caption.
-
-{% highlight html %}
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
+<figure>
+	<img src="{{site.url}}/assets/img/aws/join_result.JPG">
+	<figcaption>AWS Educate Starter</figcaption>
 </figure>
-{% endhighlight %}
-
-And you'll get something that looks like this:
-
-
-### Alternative way
-
-Another way to achieve the same result is to include `gallery` Liquid template. In this case you
-don't have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.
-
-Here is the block you might want to use:
-
-{% highlight liquid %}
-{% raw %}
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
-{% endraw %}
-{% endhighlight %}
-
-Parameters:
-
-- `caption`: Sets the caption under the gallery (see `figcaption` HTML tag above);
-- `cols`: Sets the number of columns of the gallery.
-Available values: [1..3].
-
-It will look something like this:
-
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
