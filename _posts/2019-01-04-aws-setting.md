@@ -29,14 +29,13 @@ AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 �
 
 콘솔에 로그인 한 후 주소창에 `www.awseducate.com/registration`를 입력해 Educate 계정 가입 페이지로 이동
 
-<figure class="third">
+<figure class="half">
 	<img src="{{site.url}}/assets/img/aws/educate_join.JPG">
-	<img src="{{site.url}}/assets/img/aws/educate_join_1.JPG">
-	<img src="{{site.url}}/assets/img/aws/educate_join_2.JPG">
+	<img src="{{site.url}}/assets/img/aws/educate_join_1.JPG">\
 	<figcaption>AWS Educate 가입 화면</figcaption>
 </figure>
 
-내용을 알맞게 적당히 채워넣은 후
+내용을 알맞게 채워넣은 후 AWS Educate & AWS Educate Starter 선택 페이지로 이동
 
 #### Three Up
 
