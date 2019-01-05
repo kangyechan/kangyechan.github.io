@@ -27,11 +27,17 @@ AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 �
 
 #### AWS 결제정보 입력
 
+계정유형은 프로페셔널로 선택하고 나머지 항목은 영어로 작성한다.
+
 <figure class="half">
 	<img src="{{site.url}}/assets/img/aws/aws_join_1.JPG">
 	<img src="{{site.url}}/assets/img/aws/aws_join_2.JPG">
 	<figcaption>AWS 결제정보 입력</figcaption>
 </figure>
+
+결제 정보 입력은 해외결제가 가능한 VISA or MASTER 카드로 입력한다.  
+(신용카드 또는 체크카드)  
+등록하면 아마존으로 1달러가 결제 되고 자동으로 취소된다.
 
 #### AWS Educate 가입
 
