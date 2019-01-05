@@ -71,5 +71,5 @@ Account ID 입력 후 메일인증 진행
 
 <figure>
 	<img src="{{site.url}}/assets/img/aws/join_result.JPG">
-	<figcaption>AWS Educate 가입 확인 창</figcaption>
+	<figcaption>AWS Educate 가입 확인</figcaption>
 </figure>
