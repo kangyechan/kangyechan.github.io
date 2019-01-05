@@ -31,13 +31,44 @@ AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 �
 
 <figure class="half">
 	<img src="{{site.url}}/assets/img/aws/educate_join.JPG">
-	<img src="{{site.url}}/assets/img/aws/educate_join_1.JPG">\
+	<img src="{{site.url}}/assets/img/aws/educate_join_1.JPG">
 	<figcaption>AWS Educate 가입 화면</figcaption>
 </figure>
 
+국가명 : Korea Republic of  
 내용을 알맞게 채워넣은 후 AWS Educate & AWS Educate Starter 선택 페이지로 이동
 
-#### Three Up
+<figure class="half">
+	<img src="{{site.url}}/assets/img/aws/educate_join_3.JPG">
+	<img src="{{site.url}}/assets/img/aws/educate_join_2.JPG">
+	<figcaption>AWS Educate 선택</figcaption>
+</figure>
+
+#### AWS Educate Starter
+
+AWS Educate Starter 선택 후 메일인증 진행
+
+<figure class="half">
+	<img src="{{site.url}}/assets/img/aws/educate_join_2.JPG">
+	<img src="{{site.url}}/assets/img/aws/educate_join_4.JPG">
+	<figcaption>AWS Educate Starter</figcaption>
+</figure>
+
+이용약관 스크롤을 끝가지 내린 후 `동의함`체크 `NEXT`로 인증 완료
+
+#### AWS Educate
+
+AWS Account ID 는 AWS홈페이지 로그인 후 내 계정에서 확인 가능
+
+<figure class="half">
+	<img src="{{site.url}}/assets/img/aws/educate_mypage.JPG">
+	<img src="{{site.url}}/assets/img/aws/educate_account.JPG">
+	<figcaption>AWS Account ID 확인 과정</figcaption>
+</figure>
+
+Account ID 입력 후 메일인증 진행  
+이용약관 스크롤을 끝가지 내린 후 `동의함`체크 `NEXT`로 인증 완료
+
 
 Apply the `third` class like so to display three images side by side that share the same caption.
 
