@@ -15,9 +15,9 @@ Apache HTTP 서버와 MySQL을 사용해 phpMyAdmin관리 환경을 구성할 �
 #### EC2 인스턴스 가상 서버 시작하기 (Windows, MAC 동일)
 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="{{site.url}}/assets/img/aws/educate_account.JPG"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+	<a href="{{site.url}}/assets/img/aws/aws_main.JPG"><img src="{{site.url}}/assets/img/aws/aws_main.JPG"></a>
+	<a href="{{site.url}}/assets/img/aws/ec2_start.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start.JPG"></a>
+	<figcaption>EC2 서비스 시작</figcaption>
 </figure>
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
