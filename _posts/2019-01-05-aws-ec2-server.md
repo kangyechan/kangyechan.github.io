@@ -7,7 +7,8 @@ tags: [AWS, EC2, Linux, Apache, phpMyadmin, MySQL]
 comments: false
 ---
 
-클라우드 서비스를 통해 서버를 개설하고 데이터를 지속적으로 유지하
+클라우드 서비스를 통해 서버를 개설하고 데이터를 지속적으로 유지 할 수 있는 환경 구성  
+Apache HTTP 서버와 MySQL을 사용해 phpMyadmin관리 환경을 구성할 수 있다.
 
 ### Figures (for images or video)
 
