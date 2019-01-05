@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Study Posts
+title: Learning Spaces
 excerpt: "A List of Posts"
 comments: false
 ---
