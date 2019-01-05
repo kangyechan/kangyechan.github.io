@@ -30,7 +30,7 @@ AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 �
 계정유형은 프로페셔널로 선택하고 나머지 항목은 영어로 작성한다.
 
 <figure class="half">
-	<img src="{{site.url}}/assets/img/aws/aws_join_1.JPG">
+	<a href="{{site.url}}/assets/img/aws/aws_join_1.JPG"><img src="{{site.url}}/assets/img/aws/aws_join_1.JPG"></a>
 	<img src="{{site.url}}/assets/img/aws/aws_join_2.JPG">
 	<figcaption>AWS 결제정보 입력</figcaption>
 </figure>
