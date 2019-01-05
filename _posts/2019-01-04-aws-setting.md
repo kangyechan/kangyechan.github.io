@@ -70,6 +70,6 @@ Account ID 입력 후 메일인증 진행
 이용약관 스크롤을 끝가지 내린 후 `동의함`체크 `NEXT`로 인증 완료
 
 <figure>
-	<img src="{{site.url}}/assets/img/aws/join_result.JPG">
+	<img src="{{site.url}}/assets/img/aws/educate_result.JPG">
 	<figcaption>AWS Educate 가입 확인</figcaption>
 </figure>
