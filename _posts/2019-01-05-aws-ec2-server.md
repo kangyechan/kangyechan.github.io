@@ -2,7 +2,7 @@
 layout: post
 title: "AWS EC2 Server 생성"
 date: 2019-01-05
-excerpt: "EC2 서버에 AMP(Apache + phpMyadmin + MySQL)설치"
+excerpt: "EC2 서버에 APM(Apache + phpMyadmin + MySQL)설치"
 tags: [AWS, EC2, Linux, Apache, phpMyadmin, MySQL]
 comments: false
 ---
@@ -10,9 +10,9 @@ comments: false
 클라우드 서비스를 통해 서버를 개설하고 데이터를 지속적으로 유지 할 수 있는 환경 구성  
 Apache HTTP 서버와 MySQL을 사용해 phpMyadmin관리 환경을 구성할 수 있다.
 
-### Figures (for images or video)
+### AWS EC2 환경 구성 (Windows & MAC)
 
-#### One Up
+#### EC2 인스턴스 가상 서버 시작하기 (Windows, MAC 동일)
 
 <figure>
 	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
