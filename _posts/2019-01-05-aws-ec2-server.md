@@ -7,7 +7,7 @@ tags: [AWS, EC2, Linux, Apache, phpMyadmin, MySQL]
 comments: false
 ---
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+클라우드 서비스를 통해 서버를 개설하고 데이터를 지속적으로 유지하
 
 ### Figures (for images or video)
 
