@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "AWS EC2 Server 생성"
+title: "AWS EC2 Server 시작"
 date: 2019-01-05
-excerpt: "EC2 서버에 APM(Apache + phpMyAdmin + MySQL)설치"
-tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL]
+excerpt: "AWS EC2 Server 구동하기"
+tags: [AWS, EC2, Linux]
 comments: false
 ---
 
-클라우드 서비스를 통해 서버를 개설하고 데이터를 지속적으로 유지 할 수 있는 환경 구성  
-Apache HTTP 서버와 MySQL을 사용해 phpMyAdmin관리 환경을 구성할 수 있다.
+AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능한 서버를 개설한다.  
 
 ### AWS EC2 환경 구성 (Windows & MAC)
 
@@ -20,7 +19,7 @@ Apache HTTP 서버와 MySQL을 사용해 phpMyAdmin관리 환경을 구성할 �
 	<figcaption>EC2 서비스 시작</figcaption>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+ㅇㅇㅇ
 
 #### Two Up
 
@@ -46,15 +45,6 @@ And you'll get something that looks like this:
 
 Apply the `third` class like so to display three images side by side that share the same caption.
 
-{% highlight html %}
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
-{% endhighlight %}
-
 And you'll get something that looks like this:
 
 <figure class="third">
@@ -65,23 +55,6 @@ And you'll get something that looks like this:
 </figure>
 
 ### Alternative way
-
-Another way to achieve the same result is to include `gallery` Liquid template. In this case you
-don't have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.
-
-Here is the block you might want to use:
-
-{% highlight liquid %}
-{% raw %}
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
-{% endraw %}
-{% endhighlight %}
 
 Parameters:
 
