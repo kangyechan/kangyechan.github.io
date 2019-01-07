@@ -41,11 +41,15 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 
 #### 인스턴스 세부 정보 수정
 
+별도의 수정사항 없이 다음으로 넘어간다.
+
 <figure>
 	<a href="{{site.url}}/assets/img/aws/ec2_start_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_4.JPG"></a>
 </figure>
 
 #### 서비스로 사용할 스토리지 추가
+
+별도의 수정사항 없이 다음으로 넘어간다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/aws/ec2_start_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_5.JPG"></a>
@@ -53,14 +57,17 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 
 #### 태그 추가
 
+별도의 수정사항 없이 다음으로 넘어간다.
+
 <figure>
 	<a href="{{site.url}}/assets/img/aws/ec2_start_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_6.JPG"></a>
 </figure>
 
-####
+#### 보안 그룹 구성
 
-<figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_4.JPG"></a>
+<figure class="half">
+	<a href="{{site.url}}/assets/img/aws/ec2_start_7.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_7.JPG"></a>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_8.JPG"></a>
 </figure>
 
 ### Alternative way
