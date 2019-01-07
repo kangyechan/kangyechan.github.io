@@ -102,6 +102,7 @@ phpinfo파일은 테스트 파일이기 때문에 이어서 remove를 진행한 
  sudo mysql_secure_installation // 명령어를 입력하면 나오는 화면은 아래와 같다.
 {% endhighlight %}
 
+초기 비밀번호는 없으므로 `Enter`를 눌러준다.  
 Set root password? [Y/n]에서 `Y`를 입력한 후  
 자신이 서버의 MySQL에서 사용할 비밀번호를 입력한다.  
 (비밀번호 입력은 화면에 표시되지 않는다. * 오타 주의)  
@@ -118,7 +119,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
  sudo chkconfig mysqld on
  cd /var/www/html
  sudo wget https://files.phpmyadmin.net/phpMyAdmin/4.7.7/phpMyAdmin-4.7.7-all-languages.tar.gz // phpMyAdmin 다운로드
- sudo tar xvzf phpMyAdmin-4.7.7-all-languages.tar.gz -C /var/www/html. // 파일의 압축을 풀어준다.
+ sudo tar xvzf phpMyAdmin-4.7.7-all-languages.tar.gz -C /var/www/html // 파일의 압축을 풀어준다.
  sudo mv phpMyAdmin-4.7.7-all-languages phpmyadmin
  sudo rm phpMyAdmin-4.7.7-all-languages.tar.gz
  sudo service httpd restart
