@@ -72,7 +72,22 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 
 #### APM 설치 명령어
 
+아래 명령어를 순서대로 입력한다.  
+명령어 입력 반응에 대한 //(주석처리) 이후의 커멘트는 입력할 필요가 없다.
 
 {% highlight html %}
+ sudo groupadd www
+ sudo usermod -a -G www ec2-user
+ logout // 변경사항 설정을 위한 로그아웃 과정이다.
+{% endhighlight %}
 
+로그아웃 후 다시 처음 접속했던 것처럼 `ssh -i ....`을 입력해 재 접속 한다.
+
+{% highlight html %}
+ groups // 해당 명령어를 입력하면 ec2-user wheel www가 나온다.
+ sudo chown -R root:www /var/www
+ sudo chmod 2775 /var/www
+ find /var/www -type d -exec sudo chmod 2775 {} +
+ find /var/www -type f -exec sudo chmod 0664 {} +
+ echo "<?php phpinfo() ?>" > /var/www/html/phpinfo.php
 {% endhighlight %}
