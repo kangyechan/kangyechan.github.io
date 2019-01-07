@@ -7,57 +7,51 @@ tags: [AWS, EC2, ElasticIP, Server]
 comments: false
 ---
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+AWS EC2 Server를 접속할 때마다 IP가 변경되는 경우가 있다.  
+EC2 Server에 접속하는 컴퓨터의 인터넷연결에 따라 IP가 바뀌게 된다.  
+지속적인 EC2 Server 유지를 위해 고정IP를 부여할 필요가 있다.
 
-### Figures (for images or video)
+### Elastic IP (탄력적 IP)
 
-#### One Up
+#### EC2 대시보드에서 탄력적 IP 선택
 
 <figure>
-	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_1.JPG"></a>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
-
-#### Two Up
-
-Apply the `half` class like so to display two images side by side that share the same caption.
-
-{% highlight html %}
-<figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
-{% endhighlight %}
-
-And you'll get something that looks like this:
+#### 새 주소 할당
 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_2.JPG"></a>
+	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_3.JPG"></a>
+	<figcaption>이미지 클릭 시 확대</figcaption>
 </figure>
 
-#### Three Up
+#### 할당된 주소 연결
 
-Apply the `third` class like so to display three images side by side that share the same caption.
-
-{% highlight html %}
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_4.JPG"></a>
 </figure>
-{% endhighlight %}
 
-And you'll get something that looks like this:
+#### 주소와 자신의 인스턴스 연결
 
-<figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<figcaption>Three images.</figcaption>
+인스턴스에 구동중인 인스턴스를 선택한다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_5.JPG"></a>
 </figure>
+
+#### Elastic IP (탄력적 IP) 연결 확인
+
+EC2 대시보드 인스턴스 항목에서 탄력적 IP (Elastic IP)가 연결된 것을 확인할 수 있다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_6.JPG"></a>
+</figure>
+
+## 중요
+
+EC2 Elastic IP를 할당하고 구동중인 인스턴스와 연결하지 않으면 과금이 발생한다.  
+"주소 할당해줬더니 안써? 괘씸하군"의 느낌이랄까.  
+EC2 인스턴스를 사용하고 삭제할때 Elastic IP(탄력적 IP)를 별도로 삭제해 주지 않으면  
+연결되지 않은 상태로 있기 때문에 과금이 발생할 수 있다.
