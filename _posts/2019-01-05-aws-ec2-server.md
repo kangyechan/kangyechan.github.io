@@ -8,6 +8,7 @@ comments: false
 ---
 
 AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능한 서버를 개설한다.  
+본 글에 포함된 모든 이미지는 클릭해 확대확인 할 수 있다.
 
 ### AWS EC2 환경 구성 (Windows & MAC)
 
@@ -87,11 +88,17 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 #### 키 페어 생성하기
 
 서버에 안전하게 접속하기 위해 필요한 파일과 암호 설정  
-Windows 환경에서는 해당 파일도 함께 필요하다.
+Windows 환경에서는 해당 파일도 함께 필요하다.  
+기존 키 페어 사용 -> 새 키 페어 생성으로 바꿔준다.  
+키 페어 이름 -> 자유롭게 설정한다.  
+(본인은 apm_camp로 지정했다.)  
+이어서 키 페어 다운로드를 진행하고 인스턴스를 시작한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/aws/ec2_start_10.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_10.JPG"></a>
+	<figcaption>서버 접속을 위한 키 페어 생성 과정</figcaption>
 </figure>
+
 
 ### Alternative way
 
