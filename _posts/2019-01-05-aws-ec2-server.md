@@ -99,20 +99,18 @@ Windows 환경에서는 해당 파일도 함께 필요하다.
 	<figcaption>서버 접속을 위한 키 페어 생성 과정</figcaption>
 </figure>
 
+#### EC2 서버 생성 완료
 
-### Alternative way
+생성 완료되면 아래와 같은 화면을 확인할 수 있다.
 
-Parameters:
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_11.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_11.JPG"></a>
+	<figcaption>서버 생성 완료 알림</figcaption>
+</figure>
 
-- `caption`: Sets the caption under the gallery (see `figcaption` HTML tag above);
-- `cols`: Sets the number of columns of the gallery.
-Available values: [1..3].
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_12.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_12.JPG"></a>
+	<figcaption>구동중인 내 서버 상태</figcaption>
+</figure>
 
-It will look something like this:
-
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
+#### 이렇게 생성한 EC2 서버에 Apache, phpMyAdmin, MySQL을 설지할 예정이다.
