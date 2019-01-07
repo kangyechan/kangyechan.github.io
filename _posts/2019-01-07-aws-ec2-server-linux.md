@@ -56,7 +56,7 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
  sudo service httpd start // ok 메시지가 확인된다.
 {% endhighlight %}
 
-위의 명령어를 순서대로 진행한 후 나의 AWS EC2 인스턴스 목록의 IPv4 Public IP를 주소창에 입력한다.
+위의 명령어를 순서대로 진행한 후 나의 AWS EC2 인스턴스 목록의 `IPv4 Public IP`를 주소창에 입력한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"></a>
@@ -91,3 +91,59 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
  find /var/www -type f -exec sudo chmod 0664 {} +
  echo "<?php phpinfo() ?>" > /var/www/html/phpinfo.php
 {% endhighlight %}
+
+여기까지 진행한 후 인터넷 주소창에 `IPv4 Public IP/phpinfo.php`를 입력한다.  
+php에 대한 정보들을 확인하는 창이 나오면 맞게 진행되고 있음을 알 수 있다.  
+phpinfo파일은 테스트 파일이기 때문에 이어서 remove를 진행한 후 나머지를 설치한다.
+
+{% highlight html %}
+ rm /var/www/html/phpinfo.php
+ sudo service mysqld start
+ sudo mysql_secure_installation // 명령어를 입력하면 나오는 화면은 아래와 같다.
+{% endhighlight %}
+
+Set root password? [Y/n]에서 `Y`를 입력한 후  
+자신이 서버의 MySQL에서 사용할 비밀번호를 입력한다.  
+(비밀번호 입력은 화면에 표시되지 않는다. * 오타 주의)  
+나머지는 모두 `Y`를 눌러서 설정하면 된다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_6.JPG"></a>
+	<figcaption>MySQL 설정</figcaption>
+</figure>
+
+이어서 계속해서 설치를 진행한다.
+
+{% highlight html %}
+ sudo chkconfig mysqld on
+ cd /var/www/html
+ sudo wget https://files.phpmyadmin.net/phpMyAdmin/4.7.7/phpMyAdmin-4.7.7-all-languages.tar.gz // phpMyAdmin 다운로드
+ sudo tar xvzf phpMyAdmin-4.7.7-all-languages.tar.gz -C /var/www/html. // 파일의 압축을 풀어준다.
+ sudo mv phpMyAdmin-4.7.7-all-languages phpmyadmin
+ sudo rm phpMyAdmin-4.7.7-all-languages.tar.gz
+ sudo service httpd restart
+ sudo vi /etc/php.ini // 해당 명령어를 입력하면 텍스트파일이 오픈된다.
+{% endhighlight %}
+
+오픈된 텍스트 파일에 `i`를 한번 눌러 insert 상태로 전환한다.  
+아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq` 입력한다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_7.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_7.JPG"></a>
+	<figcaption>텍스트 파일 수정</figcaption>
+</figure>
+
+{% highlight html %}
+ sudo service httpd restart
+ sudo yum install php-mysqli // 입력 후 확인 메시지에서 y를 눌러준다.
+ sudo yum install php56-mbstring // 확인 메시지에서 y를 눌러준다.
+ sudo service httpd restart
+{% endhighlight %}
+
+여기까지 설치를 진행한 후 인터넷 주소창에 IPv4 Public IP/phpmyadmin으로 접속하면  
+아래와 같은 창이 확인된다.  
+phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치 명령어 입력 중 본인이 지정한 MySQL password이다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_8.JPG"></a>
+</figure>
