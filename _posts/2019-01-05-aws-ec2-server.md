@@ -39,6 +39,30 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 	<a href="{{site.url}}/assets/img/aws/ec2_start_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_3.JPG"></a>
 </figure>
 
+#### 인스턴스 세부 정보 수정
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_4.JPG"></a>
+</figure>
+
+#### 서비스로 사용할 스토리지 추가
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_5.JPG"></a>
+</figure>
+
+#### 태그 추가
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_6.JPG"></a>
+</figure>
+
+####
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_4.JPG"></a>
+</figure>
+
 ### Alternative way
 
 Parameters:
