@@ -41,80 +41,38 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_3.JPG"></a>
+	<figcaption>EC2 서버에 연결된 상태의 터미널 화면</figcaption>
 </figure>
 
-#### Two Up
+#### 서버에 연결되었다. 아래의 터미널 명령어를 순서대로 입력해 APM을 설치한다.
 
-Apply the `half` class like so to display two images side by side that share the same caption.
+#### HTTP 서버 시작
+
+명령어 입력 반응에 대한 //(주석처리) 이후의 커멘트는 입력할 필요가 없다.
 
 {% highlight html %}
-<figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
+ sudo yum update -y // Complete! 메시지가 확인된다.
+ sudo yum install -y httpd24 php56 mysql55-server php56-myqlnd // Complete! 메시지가 확인된다.
+ sudo service httpd start // ok 메시지가 확인된다.
 {% endhighlight %}
 
-And you'll get something that looks like this:
+위의 명령어를 순서대로 진행한 후 나의 AWS EC2 인스턴스 목록의 IPv4 Public IP를 주소창에 입력한다.
 
-<figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"></a>
+	<figcaption>IPv4 Public IP</figcaption>
 </figure>
 
-#### Three Up
+아래와 같은 화면이 뜨면 맞게 진행되고 있음을 알 수 있다.
 
-Apply the `third` class like so to display three images side by side that share the same caption.
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_5.JPG"></a>
+	<figcaption>EC2 Server HTTP 페이지</figcaption>
+</figure>
+
+#### APM 설치 명령어
+
 
 {% highlight html %}
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
+
 {% endhighlight %}
-
-And you'll get something that looks like this:
-
-<figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<figcaption>Three images.</figcaption>
-</figure>
-
-### Alternative way
-
-Another way to achieve the same result is to include `gallery` Liquid template. In this case you
-don't have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.
-
-Here is the block you might want to use:
-
-{% highlight liquid %}
-{% raw %}
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
-{% endraw %}
-{% endhighlight %}
-
-Parameters:
-
-- `caption`: Sets the caption under the gallery (see `figcaption` HTML tag above);
-- `cols`: Sets the number of columns of the gallery.
-Available values: [1..3].
-
-It will look something like this:
-
-{% capture images %}
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-{% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
