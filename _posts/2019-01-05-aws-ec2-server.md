@@ -71,12 +71,27 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 <figure class="half">
 	<a href="{{site.url}}/assets/img/aws/ec2_start_7.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_7.JPG"></a>
 	<a href="{{site.url}}/assets/img/aws/ec2_start_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_8.JPG"></a>
-	<figcaption>사진 클릭시 확대</figcaption>
+	<figcaption>사진 클릭 시 확대</figcaption>
 </figure>
 
 규칙 추가를 완료하였으면 다음으로 넘어간다.
 
+#### 설정 정보 검토
 
+특별히 수정한 부분이 많이 없기 때문에 시작으로 넘어간다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_9.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_9.JPG"></a>
+</figure>
+
+#### 키 페어 생성하기
+
+서버에 안전하게 접속하기 위해 필요한 파일과 암호 설정  
+Windows 환경에서는 해당 파일도 함께 필요하다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_10.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_10.JPG"></a>
+</figure>
 
 ### Alternative way
 
