@@ -19,39 +19,24 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 	<figcaption>EC2 서비스 시작</figcaption>
 </figure>
 
-ㅇㅇㅇ
+모든 서비스 - 컴퓨팅 - EC2로 이동한다.
 
-#### Two Up
+#### 인스턴스 환경 설정 과정
 
-Apply the `half` class like so to display two images side by side that share the same caption.
-
-{% highlight html %}
-<figure class="half">
-    <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>
-    <a href="/images/image-filename-2-large.jpg"><img src="/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
-{% endhighlight %}
-
-And you'll get something that looks like this:
-
-<figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_1.JPG"></a>
 </figure>
 
-#### Three Up
+#### AMI(Amazon Machine Image)선택
 
-Apply the `third` class like so to display three images side by side that share the same caption.
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_2.JPG"></a>
+</figure>
 
-And you'll get something that looks like this:
+#### 인스턴스 유형 선택
 
-<figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<figcaption>Three images.</figcaption>
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_start_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_3.JPG"></a>
 </figure>
 
 ### Alternative way
