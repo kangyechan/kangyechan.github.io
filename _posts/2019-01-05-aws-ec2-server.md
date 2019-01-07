@@ -65,10 +65,18 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 
 #### 보안 그룹 구성
 
+규칙 추가를 선택해 HTTPS와 HTTP를 추가한다.  
+규칙을 선택하면 Port Range는 사진과 같이 자동으로 설정된다.
+
 <figure class="half">
 	<a href="{{site.url}}/assets/img/aws/ec2_start_7.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_7.JPG"></a>
 	<a href="{{site.url}}/assets/img/aws/ec2_start_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_8.JPG"></a>
+	<figcaption>사진 클릭시 확대</figcaption>
 </figure>
+
+규칙 추가를 완료하였으면 다음으로 넘어간다.
+
+
 
 ### Alternative way
 
