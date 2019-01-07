@@ -7,13 +7,13 @@ tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL, MAC]
 comments: false
 ---
 
-Linux환경에서 EC2서버에 접속해 APM을 설치한다.  
+Linux환경에서 EC2 Server에 접속해 APM을 설치한다.  
 절차는 복잡하지 않으며 다운로드 과정이 포함되어 있으므로  
 인터넷 환경이 나쁘지 않은 곳에서 작업하는 것을 추천한다.
 
 ### EC2 Server에 APM 설치 (Linux환경)
 
-#### EC2 서버 DNS주소
+#### EC2 Server DNS주소
 
 AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 
@@ -112,7 +112,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 	<figcaption>MySQL 설정</figcaption>
 </figure>
 
-이어서 계속해서 설치를 진행한다.
+이어서 설치를 진행한다.
 
 {% highlight html %}
  sudo chkconfig mysqld on
