@@ -7,18 +7,41 @@ tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL, MAC]
 comments: false
 ---
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+Linux환경에서 EC2서버에 접속해 APM을 설치한다.  
+절차는 복잡하지 않으며 다운로드 과정이 포함되어 있으므로  
+인터넷 환경이 나쁘지 않은 곳에서 작업하는 것을 추천한다.
 
-### Figures (for images or video)
+### EC2 Server에 APM 설치 (Linux환경)
 
-#### One Up
+#### EC2 서버 DNS주소
+
+AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 
 <figure>
-	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_1.JPG"></a>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+연결 시 활성화 되는 창에 연결을 위한 DNS주소가 있기 때문에 해당 창을 종료하지 않는다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_2.JPG"></a>
+	<figcaption>연결을 위한 DNS주소</figcaption>
+</figure>
+
+#### 본인의 Linux 터미널에서 SSH 연결
+
+.pem 파일이 저장되어 있는 폴더로 이동한 후  
+3번의 `chmod 400 본인파일명.pem` 을 복사해서 입력  
+이어서 Example란의 `ssh -i ....`을 복사해서 입력   
+`yes`입력으로 연결 성공
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_2_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_2_1.JPG"></a>
+</figure>
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_3.JPG"></a>
+</figure>
 
 #### Two Up
 
