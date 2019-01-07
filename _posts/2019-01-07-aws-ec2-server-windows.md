@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "A Post with Images"
-date: 2013-05-22
-excerpt: "Examples and code for displaying images in posts."
-tags: [sample post, images, test]
-comments: true
+title: "AWS EC2 Server에 APM설치 (Windows)"
+date: 2019-01-07
+excerpt: "Windows환경에서 AWS EC2 Sever에 접속해 APM(Apache + phpMyAdmin + MySQL) 설치하기"
+tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL, Windows]
+comments: false
 ---
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.

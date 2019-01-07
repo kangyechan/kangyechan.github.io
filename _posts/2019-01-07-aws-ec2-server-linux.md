@@ -3,7 +3,7 @@ layout: post
 title: "AWS EC2 Server에 APM설치 (Linux)"
 date: 2019-01-07
 excerpt: "MAC Linux환경에서 AWS EC2 Sever에 APM(Apache + phpMyAdmin + MySQL) 설치하기"
-tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL]
+tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL, MAC]
 comments: false
 ---
 
