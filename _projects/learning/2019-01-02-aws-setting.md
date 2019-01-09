@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: project
 title: "AWS Educate 계정 가입"
 date: 2018-01-02
 excerpt: "AWS 무료 계정 생성 후 AWS Educate 계정 가입 절차"
-tags: [aws, educate, images]
+tags: [AWS, Educate, Educate Starter]
 comments: false
 ---
 
