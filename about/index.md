@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About the Yechan
-tags: [about, Jekyll, theme, moon]
+tags: [BackEnd, FrontEnd, Web, App]
 date: 2016-03-21
 comments: false
 ---
