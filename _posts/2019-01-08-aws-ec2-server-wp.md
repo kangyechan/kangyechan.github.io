@@ -35,8 +35,8 @@ MySQL에 접속한 상태에서 아래 명령어를 입력한다.
 입력할 때 싱글쿼터(')와 (\`)의 구분을 명확히 해야 한다.  
 DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특수문자)을 사용한다.  
 각 이름은 사용자가 정의할 수 있다.  
-이번 설치에서는 'wordpress-user'를 'apm-camp'로  
-'your_strong_password'를 'apmcampta'로 변경하였다.
+이번 설치에서는 ``'wordpress-user'``를 ``'apm-camp'``로  
+``'your_strong_password'``를 ``'apmcampta'``로 변경하였다.
 
 {% highlight html %}
  CREATE USER 'wordpress-user'@'localhost' IDENTIFIED BY 'your_strong_password'; // 유저 생성
@@ -50,3 +50,32 @@ DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
 	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_5.JPG"></a>
 	<figcaption>데이터베이스 생성 및 설정</figcaption>
 </figure>
+
+#### wp-config.php파일 생성 및 편집
+
+워드프레스 폴더에는 `wp-config-sample.php` 샘플 구성파일이 있다.  
+해당 파일을 복사해 편집하여 wp설치를 진행한다.
+
+{% highlight html %}
+ cp wordpress/wp-config-sample.php wordpress/wp-config.php // 파일을 wp-config.php의 이름으로 복사
+ vi wordpress/wp-config.php // wp-config.php파일 보기
+{% endhighlight %}
+
+`i`를 입력해 `INSERT`모드로 변경한다.  
+각 아래 코드에 해당하는 부분을 자신이 입력한 정보로 수정한다.
+
+{% highlight html %}
+ define('DB_NAME', 'wordpress-db'); // 지정한 db명으로 수정
+ define('DB_USER', 'wordpress-user'); // 지정한 user로 수정
+ define('DB_PASSWORD', 'your_strong_password'); // 지정한 password로 수정
+{% endhighlight %}
+
+이번 설치에서 입력한 정보로 아래 사진과 같이 입력했다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_6.JPG"></a>
+	<figcaption>데이터베이스 생성 및 설정</figcaption>
+</figure>
+
+보안성을 위해 암호계층에 무작위 값을 추가한다.  
+암호값은 [https://api.wordpress.org/secret-key/1.1/salt/](https://api.wordpress.org/secret-key/1.1/salt/){:target="_blank"}
