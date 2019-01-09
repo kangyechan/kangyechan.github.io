@@ -78,4 +78,4 @@ DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
 </figure>
 
 보안성을 위해 암호계층에 무작위 값을 추가한다.  
-암호값은 [https://api.wordpress.org/secret-key/1.1/salt/](https://api.wordpress.org/secret-key/1.1/salt/){:target="_blank"}
+암호값은 [https://api.wordpress.org/secret-key/1.1/salt/](https://api.wordpress.org/secret-key/1.1/salt/){:target="_blank"}에서 자동으로 생성된다.  
