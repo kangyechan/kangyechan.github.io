@@ -84,3 +84,47 @@ DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
 암호를 수정하고 `esc`를 누른 후 `:wq`를 입력해 저장한다.
 
 #### 워드프레스 파일을 Apache 문서 루트 아래에 설치
+
+아래의 명령어를 입력한다.
+
+{% highlight html %}
+ cp -r wordpress/* /var/www/html/ // wordpress폴더의 파일들을 복사
+ mkdir /var/www/html/blog // blog 폴더 생성
+ cp -r wordpress/* /var/www/html/blog/ // blog폴더 내에 wordpress폴더의 파일들을 복사
+{% endhighlight %}
+
+#### 퍼머링크(permalinks)사용 방법
+
+워드프레스 작동을 위해 Apache .htaccess 파일이 필요하지만  
+Amazon Linux에서는 다른 방식으로 사용한다.
+
+{% highlight html %}
+ sudo vim /etc/httpd/conf/httpd.conf // httpd.conf 파일 열기
+{% endhighlight %}
+
+`i`를 입력해 `INSERT`모드로 변경  
+`<Directory "/var/www/html">`로 시작하는 영역을 찾아  
+`AllowOverride None` 라인을 `AllowOverride All`로 변경  
+`esc`를 누른 후 `:wq`를 입력해 저장
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_4.JPG"></a>
+	<figcaption>퍼머링크 권한 허용</figcaption>
+</figure>
+
+#### Apache 웹 서버에 대한 파일 권한 수정
+
+워드프레스의 기능을 사용하기 위해 쓰기 권한을 적용한다.  
+권한 적용 후 웹서버를 다시 시작하면 워드프레스 설치가 완료된다.
+
+{% highlight html %}
+ sudo chown -R apache /var/www
+ sudo chgrp -R apache /var/www
+ sudo chmod 2775 /var/www
+ find /var/www -type d -exec sudo chmod 2775 {} +
+ find /var/www -type f -exec sudo chmod 0664 {} +
+ sudo service httpd restart
+{% endhighlight %}
+
+### 설치가 완료되었다.  
+#### 웹사이트에서 워드프레스 설치
