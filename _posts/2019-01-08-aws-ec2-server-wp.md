@@ -141,6 +141,16 @@ Amazon Linux에서는 다른 방식으로 사용한다.
 탭과 메인에 표시될 사이트의 이름을 설정하고 워드프레스 사용자(관리자)의 ID를 사용자명에 입력한다.  
 관리자 비밀번호를 입력하고 나머지 정보도 입력 후 설치를 진행한다.
 
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_2.JPG"></a>
+	<figcaption>언어 설정</figcaption>
+</figure>
+
 #### 워드프레스 설치 완료
 
 설치가 완료되면 입력한 ID와 비밀번호를 사용해 관리자모드로 로그인 할 수 있다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_3.JPG"></a>
+	<figcaption>언어 설정</figcaption>
+</figure>
