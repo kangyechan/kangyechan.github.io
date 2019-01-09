@@ -80,4 +80,7 @@ DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
 
 암호값은 <a href="https://api.wordpress.org/secret-key/1.1/salt/" target="_blank" style="_">https://api.wordpress.org/secret-key/1.1/salt/</a>에서 자동으로 생성된다.  
 암호값을 모두 복사하고 기존의 암호설정 부분을 삭제한다.  
-삭제한 위치에 마우스 `우클릭`을 하면 붙여넣기를 할 수 있다.
+삭제한 위치에 마우스 `우클릭`을 하면 붙여넣기를 할 수 있다.  
+암호를 수정하고 `esc`를 누른 후 `:wq`를 입력해 저장한다.
+
+#### 워드프레스 파일을 Apache 문서 루트 아래에 설치
