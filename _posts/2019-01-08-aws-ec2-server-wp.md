@@ -70,12 +70,13 @@ DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
  define('DB_PASSWORD', 'your_strong_password'); // 지정한 password로 수정
 {% endhighlight %}
 
-이번 설치에서 입력한 정보로 아래 사진과 같이 입력했다.
+이번 설치에서 입력한 정보로 아래 사진과 같이 입력했다.  
+입력 후 보안성을 위해 아래로 스크롤을 내려 암호값을 수정한다.  
 
 <figure>
 	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_6.JPG"></a>
 	<figcaption>데이터베이스 생성 및 설정</figcaption>
 </figure>
 
-보안성을 위해 암호계층에 무작위 값을 추가한다.  
-암호값은 [https://api.wordpress.org/secret-key/1.1/salt/](https://api.wordpress.org/secret-key/1.1/salt/){:target="_blank"}에서 자동으로 생성된다.  
+암호값은 <a href="https://api.wordpress.org/secret-key/1.1/salt/" target="_blank"_>https://api.wordpress.org/secret-key/1.1/salt/</a>에서 자동으로 생성된다.  
+생성된 암호를 복사하
