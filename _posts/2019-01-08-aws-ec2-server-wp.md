@@ -35,8 +35,8 @@ MySQL에 접속한 상태에서 아래 명령어를 입력한다.
 입력할 때 싱글쿼터(')와 (\`)의 구분을 명확히 해야 한다.  
 DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특수문자)을 사용한다.  
 각 이름은 사용자가 정의할 수 있다.  
-이번 설치에서는 ``'wordpress-user'``를 ``'apm-camp'``로  
-``'your_strong_password'``를 ``'apmcampta'``로 변경하였다.
+이번 설치에서는 `'wordpress-user'`를 `'apm-camp'`로  
+`'your_strong_password'`를 `'apmcampta'`로 변경하였다.
 
 {% highlight html %}
  CREATE USER 'wordpress-user'@'localhost' IDENTIFIED BY 'your_strong_password'; // 유저 생성
