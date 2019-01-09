@@ -33,10 +33,20 @@ MySQL에 접속 성공하면 커멘드 창에 `mysql>`가 확인된다.
 MySQL에 접속한 상태에서 아래 명령어를 입력한다.
 
 입력할 때 싱글쿼터(')와 (\`)의 구분을 명확히 해야 한다.  
-DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특수문자)을 사용한다. 
+DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특수문자)을 사용한다.  
+각 이름은 사용자가 정의할 수 있다.  
+이번 설치에서는 'wordpress-user'를 'apm-camp'로  
+'your_strong_password'를 'apmcampta'로 변경하였다.
 
 {% highlight html %}
  CREATE USER 'wordpress-user'@'localhost' IDENTIFIED BY 'your_strong_password'; // 유저 생성
  CREATE DATABASE `wordpress-db`; // 데이터베이스 생성
- GRANT ALL PRIVILEGES ON `wordpress-db`.* TO 'wordpress-user'@'localhost';
+ GRANT ALL PRIVILEGES ON `wordpress-db`.* TO 'wordpress-user'@'localhost'; // 권한 부여
+ FLUSH PRIVILEGES; // 권한 새로고침
+ exit // 클라이언트 종료
 {% endhighlight %}
+
+<figure>
+	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_5.JPG"></a>
+	<figcaption>데이터베이스 생성 및 설정</figcaption>
+</figure>
