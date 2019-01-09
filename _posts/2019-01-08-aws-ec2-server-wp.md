@@ -35,5 +35,6 @@ MySQL에 접속한 상태에서 아래 명령어를 입력한다.
 {% highlight html %}
  CREATE USER 'wordpress-user'@'localhost' IDENTIFIED BY 'your_strong_password'; // 유저 생성
  CREATE DATABASE `wordpress-db`; // 데이터베이스 생성
+ // 싱글쿼터(')가 아닌 숫자 1 옆 ~ 에 위치한 특수문자 이다.
  GRANT ALL PRIVILEGES ON `wordpress-db`.* TO 'wordpress-user'@'localhost';
 {% endhighlight %}
