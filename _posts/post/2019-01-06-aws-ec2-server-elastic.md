@@ -7,9 +7,9 @@ tags: [AWS, EC2, ElasticIP, Server]
 comments: false
 ---
 
-AWS EC2 Server를 접속할 때마다 IP가 변경되는 경우가 있다.  
-EC2 Server에 접속하는 컴퓨터의 인터넷연결에 따라 IP가 바뀌게 된다.  
-지속적인 EC2 Server 유지를 위해 고정IP를 부여할 필요가 있다.
+AWS EC2 Server를 접속할 때마다 IP가 변경될 수가 있다.  
+EC2 Server에 접속하는 컴퓨터의 인터넷 연결에 따라 IP가 바뀌게 된다.  
+지속적인 EC2 Server 유지를 위해 고정 IP를 부여할 필요가 있다.
 
 ### Elastic IP (탄력적 IP)
 
@@ -35,7 +35,7 @@ EC2 Server에 접속하는 컴퓨터의 인터넷연결에 따라 IP가 바뀌�
 
 #### 주소와 자신의 인스턴스 연결
 
-인스턴스에 구동중인 인스턴스를 선택한다.
+인스턴스에 구동 중인 인스턴스를 선택한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_5.JPG"></a>
@@ -51,7 +51,7 @@ EC2 대시보드 인스턴스 항목에서 탄력적 IP (Elastic IP)가 연결�
 
 ## 중요
 
-EC2 Elastic IP를 할당하고 구동중인 인스턴스와 연결하지 않으면 과금이 발생한다.  
-"주소 할당해줬더니 안써? 괘씸하군"의 느낌이랄까.  
-EC2 인스턴스를 사용하고 삭제할때 Elastic IP(탄력적 IP)를 별도로 삭제해 주지 않으면  
+EC2 Elastic IP를 할당하고 구동 중인 인스턴스와 연결하지 않으면 과금이 발생한다.  
+"주소 할당해줬더니 안 써? 괘씸하군"의 느낌이랄까.  
+EC2 인스턴스를 사용하고 삭제할 때 Elastic IP(탄력적 IP)를 별도로 삭제해 주지 않으면  
 연결되지 않은 상태로 있기 때문에 과금이 발생할 수 있다.
