@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "AWS EC2 Server에 워드프레스 설치"
+title: "AWS EC2 Server 에 워드프레스 설치"
 date: 2019-01-08
-excerpt: "AWS EC2 Server에 손쉬운 웹페이지 제작을 위한 WordPress 설치하기"
+excerpt: "AWS EC2 Server 에 손쉬운 웹페이지 제작을 위한 WordPress 설치하기"
 tags: [AWS, EC2, WordPress]
 comments: false
 ---
 
-개설한 EC2 Server에 워드프레스를 설치해 간편한 웹사이트 만들기  
-참고 : <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/hosting-wordpress.html">자습서: Amazon Linux를 통한 WordPress 블로그 호스팅</a>
+개설한 EC2 Server 에 워드프레스를 설치해 간편한 웹사이트 만들기  
+참고 : <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/hosting-wordpress.html">자습서: Amazon Linux 를 통한 WordPress 블로그 호스팅</a>
 
 ### EC2 Server APM 설정을 완료한 상태에서 진행
 
 #### 워드프레스 설치
 
-EC2 Server에 접속해서 아래 명령어를 입력한다.  
+EC2 Server 에 접속해서 아래 명령어를 입력한다.  
 명령어 입력 반응에 대한 //(주석처리) 이후의 커멘트는 입력할 필요가 없다.
 
 {% highlight html %}

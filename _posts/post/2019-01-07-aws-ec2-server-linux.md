@@ -7,21 +7,21 @@ tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL, MAC]
 comments: false
 ---
 
-Linux환경에서 EC2 Server에 접속해 APM을 설치한다.  
+Linux 환경에서 EC2 Server에 접속해 APM을 설치한다.  
 절차는 복잡하지 않으며 다운로드 과정이 포함되어 있으므로  
-인터넷 환경이 나쁘지 않은 곳에서 작업하는 것을 추천한다.
+인터넷환경이 나쁘지 않은 곳에서 작업하는 것을 추천한다.
 
 ### EC2 Server에 APM 설치 (Linux환경)
 
 #### EC2 Server DNS주소
 
-AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
+AWS 인스턴스 상태에서 연결하기 위한 DNS 서버를 받는다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_linux/server_1.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_1.JPG"></a>
 </figure>
 
-연결 시 활성화 되는 창에 연결을 위한 DNS주소가 있기 때문에 해당 창을 종료하지 않는다.
+연결 시 활성화되는 창에 연결을 위한 DNS 주소가 있으므로 해당 창을 종료하지 않는다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_linux/server_2.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_2.JPG"></a>
@@ -30,9 +30,9 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 
 #### 본인의 Linux 터미널에서 SSH 연결
 
-.pem 파일이 저장되어 있는 폴더로 이동한 후  
+.pem 파일이 저장되어 있는 폴더로 이동 후  
 3번의 `chmod 400 본인파일명.pem` 을 복사해서 입력  
-이어서 Example란의 `ssh -i ....`을 복사해서 입력   
+이어서 Example 란의 `ssh -i ....`을 복사해서 입력   
 `yes`입력으로 연결 성공
 
 <figure>
@@ -48,7 +48,7 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 
 #### HTTP 서버 시작
 
-명령어 입력 반응에 대한 //(주석처리) 이후의 커멘트는 입력할 필요가 없다.
+명령어 입력반응에 대한 //(주석처리) 이후의 정보는 입력할 필요가 없다.
 
 {% highlight html %}
  sudo yum update -y // Complete! 메시지가 확인된다.
@@ -73,7 +73,7 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 #### APM 설치 명령어
 
 아래 명령어를 순서대로 입력한다.  
-명령어 입력 반응에 대한 //(주석처리) 이후의 커멘트는 입력할 필요가 없다.
+명령어 입력반응에 대한 //(주석처리) 이후의 정보는 입력할 필요가 없다.
 
 {% highlight html %}
  sudo groupadd www
@@ -93,8 +93,8 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 {% endhighlight %}
 
 여기까지 진행한 후 인터넷 주소창에 `IPv4 Public IP/phpinfo.php`를 입력한다.  
-php에 대한 정보들을 확인하는 창이 나오면 맞게 진행되고 있음을 알 수 있다.  
-phpinfo파일은 테스트 파일이기 때문에 이어서 remove를 진행한 후 나머지를 설치한다.
+php 에 대한 정보들을 확인하는 창이 나오면 맞게 진행되고 있음을 알 수 있다.  
+phpinfo 파일은 테스트 파일이기 때문에 이어서 remove 를 진행한 후 나머지를 설치한다.
 
 {% highlight html %}
  rm /var/www/html/phpinfo.php
@@ -104,7 +104,7 @@ phpinfo파일은 테스트 파일이기 때문에 이어서 remove를 진행한 
 
 초기 비밀번호는 없으므로 `Enter`를 눌러준다.  
 Set root password? [Y/n]에서 `Y`를 입력한 후  
-자신이 서버의 MySQL에서 사용할 비밀번호를 입력한다.  
+서버의 MySQL 에서 사용할 비밀번호를 입력한다.  
 (비밀번호 입력은 화면에 표시되지 않는다. * 오타 주의)  
 나머지는 모두 `Y`를 눌러서 설정하면 된다.
 
@@ -127,7 +127,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 {% endhighlight %}
 
 오픈된 텍스트 파일에 `i`를 한번 눌러 insert 상태로 전환한다.  
-아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq` 입력한다.
+아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq`를 입력한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_linux/server_7.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_7.JPG"></a>
@@ -141,9 +141,9 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
  sudo service httpd restart
 {% endhighlight %}
 
-여기까지 설치를 진행한 후 인터넷 주소창에 IPv4 Public IP/phpMyAdmin으로 접속하면  
+여기까지 설치를 진행한 후 인터넷 주소창에 IPv4 Public IP/phpMyAdmin 으로 접속하면  
 아래와 같은 창이 확인된다.
-phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치 명령어 입력 중 본인이 지정한 MySQL password이다.
+phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치명령어 입력 중 본인이 지정한 MySQL password 이다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"></a>

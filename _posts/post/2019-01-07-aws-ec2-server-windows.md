@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "AWS EC2 Server에 APM설치 (Windows)"
+title: "AWS EC2 Server 에 APM 설치 (Windows)"
 date: 2019-01-07
-excerpt: "Windows환경에서 AWS EC2 Sever에 접속해 APM(Apache + phpMyAdmin + MySQL) 설치하기"
+excerpt: "Windows 환경에서 AWS EC2 Sever 에 접속해 APM(Apache + phpMyAdmin + MySQL) 설치하기"
 tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL, Windows]
 comments: false
 ---
 
-Windows환경에서 EC2 Server에 접속해 APM을 설치한다.  
+Windows 환경에서 EC2 Server 에 접속해 APM 을 설치한다.  
 절차는 복잡하지 않으며 다운로드 과정이 포함되어 있으므로  
-인터넷 환경이 나쁘지 않은 곳에서 작업하는 것을 추천한다.  
-EC2 Server에 접속하기 위해 PuTTY를 사용한다.
+인터넷환경이 나쁘지 않은 곳에서 작업하는 것을 추천한다.  
+EC2 Server 에 접속하기 위해 PuTTY 를 사용한다.
 
 ### PuTTY를 사용해 Windows에서 Linux EC2 Server에 연결
 
@@ -40,7 +40,7 @@ AWS에서 인스턴스 생성시 다운로드 받은 `pem`파일을 선택한다
 	<a href="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"></a>
 </figure>
 
-RSA룰 선택 후 Save private key를 선택한다.
+`RSA`룰 선택 후 `Save private key`를 선택한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_windows/server_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_5.JPG"></a>
@@ -52,7 +52,7 @@ RSA룰 선택 후 Save private key를 선택한다.
 	<a href="{{site.url}}/assets/img/post/ec2_windows/server_6.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_6.JPG"></a>
 </figure>
 
-Key로 생성된 PPK파일 이름을 지정해서 저장한다.  
+`Key`로 생성된 `PPK`파일 이름을 지정해서 저장한다.  
 `apm_camp`로 지정했다.
 
 <figure>
@@ -61,7 +61,7 @@ Key로 생성된 PPK파일 이름을 지정해서 저장한다.
 
 #### putty를 사용해 EC2 Server에 접속
 
-생성된 `.ppk`파일로 EC2 Server에 접속할 수 있다.  
+생성된 `.ppk`파일로 EC2 Server 에 접속할 수 있다.  
 `putty.exe`파일을 실행한다.
 
 <figure class="half">
@@ -71,16 +71,16 @@ Key로 생성된 PPK파일 이름을 지정해서 저장한다.
 </figure>
 
 `Host Name`에 ec2-user@본인의 IPv4 Public IP를 입력한다.  
-ex) 본인의 AWS 인스턴스 public IP가 255.255.255.255라면  
-ec2-user@255.255.255.255 를 입력한다.  
-입력 후 Connection - SSH - Auth로 이동한다.  
+ex) 본인의 AWS 인스턴스 public IP 가 `255.255.255.255` 라면  
+`ec2-user@255.255.255.255` 를 입력한다.  
+입력 후 Connection - SSH - Auth 로 이동한다.  
 `Browse..`버튼을 클릭해 `puttygen`으로 생성한 `.ppk`파일을 선택한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_windows/server_10.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_10.JPG"></a>
 </figure>
 
-선택 후 Open버튼을 클릭하면  
+선택 후 Open 버튼을 클릭하면  
 처음 연결에 대한 신뢰 알림 대화상자가 표시된다.  
 예(Y)를 눌러 콘솔창으로 넘어간다.
 
@@ -88,11 +88,11 @@ ec2-user@255.255.255.255 를 입력한다.
 	<a href="{{site.url}}/assets/img/post/ec2_windows/server_11.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_11.JPG"></a>
 </figure>
 
-#### 서버에 연결되었다. 아래의 터미널 명령어를 순서대로 입력해 APM을 설치한다.
+#### 서버에 연결되었다. 아래의 터미널 명령어를 순서대로 입력해 APM 을 설치한다.
 
 #### HTTP 서버 시작
 
-명령어 입력 반응에 대한 //(주석처리) 이후의 커멘트는 입력할 필요가 없다.
+명령어 입력반응에 대한 //(주석처리) 이후의 정보는 입력할 필요가 없다.
 
 {% highlight html %}
  sudo yum update -y // Complete! 메시지가 확인된다.
@@ -117,7 +117,7 @@ ec2-user@255.255.255.255 를 입력한다.
 #### APM 설치 명령어
 
 아래 명령어를 순서대로 입력한다.  
-명령어 입력 반응에 대한 //(주석처리) 이후의 커멘트는 입력할 필요가 없다.
+명령어 입력반응에 대한 //(주석처리) 이후의 정보는 입력할 필요가 없다.
 
 {% highlight html %}
  sudo groupadd www
@@ -137,8 +137,8 @@ ec2-user@255.255.255.255 를 입력한다.
 {% endhighlight %}
 
 여기까지 진행한 후 인터넷 주소창에 `IPv4 Public IP/phpinfo.php`를 입력한다.  
-php에 대한 정보들을 확인하는 창이 나오면 맞게 진행되고 있음을 알 수 있다.  
-phpinfo파일은 테스트 파일이기 때문에 이어서 remove를 진행한 후 나머지를 설치한다.
+php 에 대한 정보들을 확인하는 창이 나오면 맞게 진행되고 있음을 알 수 있다.  
+phpinfo 파일은 테스트 파일이기 때문에 이어서 remove 를 진행한 후 나머지를 설치한다.
 
 {% highlight html %}
  rm /var/www/html/phpinfo.php
@@ -148,7 +148,7 @@ phpinfo파일은 테스트 파일이기 때문에 이어서 remove를 진행한 
 
 초기 비밀번호는 없으므로 `Enter`를 눌러준다.  
 Set root password? [Y/n]에서 `Y`를 입력한 후  
-자신이 서버의 MySQL에서 사용할 비밀번호를 입력한다.  
+서버의 MySQL 에서 사용할 비밀번호를 입력한다.  
 (비밀번호 입력은 화면에 표시되지 않는다. * 오타 주의)  
 나머지는 모두 `Y`를 눌러서 설정하면 된다.
 
@@ -171,7 +171,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 {% endhighlight %}
 
 오픈된 텍스트 파일에 `i`를 한번 눌러 insert 상태로 전환한다.  
-아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq` 입력한다.
+아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq`를 입력한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_windows/server_15.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_15.JPG"></a>
@@ -185,9 +185,9 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
  sudo service httpd restart
 {% endhighlight %}
 
-여기까지 설치를 진행한 후 인터넷 주소창에 IPv4 Public IP/phpMyAdmin으로 접속하면  
+여기까지 설치를 진행한 후 인터넷 주소창에 IPv4 Public IP/phpMyAdmin 으로 접속하면  
 아래와 같은 창이 확인된다.
-phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치 명령어 입력 중 본인이 지정한 MySQL password이다.
+phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치명령어 입력 중 본인이 지정한 MySQL password 이다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_windows/server_16.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_16.JPG"></a>
