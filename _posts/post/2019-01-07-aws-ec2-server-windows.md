@@ -153,7 +153,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 나머지는 모두 `Y`를 눌러서 설정하면 된다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/post/ec2_windows/server_12.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_12.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_14.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_14.JPG"></a>
 	<figcaption>MySQL 설정</figcaption>
 </figure>
 
@@ -174,7 +174,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq` 입력한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/post/ec2_windows/server_13.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_13.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_15.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_15.JPG"></a>
 	<figcaption>텍스트 파일 수정</figcaption>
 </figure>
 
@@ -190,5 +190,5 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치 명령어 입력 중 본인이 지정한 MySQL password이다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_16.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_16.JPG"></a>
 </figure>
