@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "AWS EC2 Server에 APM설치 (Linux)"
+title: "AWS EC2 Server에 APM 설치 (Linux)"
 date: 2019-01-07
-excerpt: "MAC Linux환경에서 AWS EC2 Sever에 APM(Apache + phpMyAdmin + MySQL) 설치하기"
+excerpt: "MAC Linux 환경에서 AWS EC2 Sever에 APM(Apache + phpMyAdmin + MySQL) 설치하기"
 tags: [AWS, EC2, Linux, Apache, phpMyAdmin, MySQL, MAC]
 comments: false
 ---
@@ -13,7 +13,7 @@ Linux 환경에서 EC2 Server에 접속해 APM을 설치한다.
 
 ### EC2 Server에 APM 설치 (Linux환경)
 
-#### EC2 Server DNS주소
+#### EC2 Server DNS 주소
 
 AWS 인스턴스 상태에서 연결하기 위한 DNS 서버를 받는다.
 
@@ -25,7 +25,7 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS 서버를 받는다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_linux/server_2.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_2.JPG"></a>
-	<figcaption>연결을 위한 DNS주소</figcaption>
+	<figcaption>연결을 위한 DNS 주소</figcaption>
 </figure>
 
 #### 본인의 Linux 터미널에서 SSH 연결
@@ -93,8 +93,8 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS 서버를 받는다.
 {% endhighlight %}
 
 여기까지 진행한 후 인터넷 주소창에 `IPv4 Public IP/phpinfo.php`를 입력한다.  
-php 에 대한 정보들을 확인하는 창이 나오면 맞게 진행되고 있음을 알 수 있다.  
-phpinfo 파일은 테스트 파일이기 때문에 이어서 remove 를 진행한 후 나머지를 설치한다.
+php에 대한 정보들을 확인하는 창이 나오면 맞게 진행되고 있음을 알 수 있다.  
+`phpinfo` 파일은 테스트 파일이기 때문에 이어서 `remove`를 진행한 후 나머지를 설치한다.
 
 {% highlight html %}
  rm /var/www/html/phpinfo.php
@@ -126,7 +126,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
  sudo vi /etc/php.ini // 해당 명령어를 입력하면 텍스트파일이 오픈된다.
 {% endhighlight %}
 
-오픈된 텍스트 파일에 `i`를 한번 눌러 insert 상태로 전환한다.  
+오픈된 텍스트 파일에 `i`를 한번 눌러 `insert` 상태로 전환한다.  
 아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq`를 입력한다.
 
 <figure>

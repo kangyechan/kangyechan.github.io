@@ -93,7 +93,7 @@ Windows 환경에서는 해당 파일도 함께 필요하다.
 키 페어 이름 -> 자유롭게 설정한다.  
 (본인은 apm_camp로 지정했다.)  
 이어서 키 페어 다운로드를 진행하고 인스턴스를 시작한다.  
-서버에 접속할 때 pem파일이 필요하기 때문에 다운로드받은 경로를 잘 기억해 둔다.
+서버에 접속할 때 `.pem` 파일이 필요하기 때문에 다운로드받은 경로를 잘 기억해 둔다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_server/start_11.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_11.JPG"></a>

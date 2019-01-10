@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "EC2 Server에 고정IP 부여"
+title: "EC2 Server에 고정 IP 부여"
 date: 2019-01-06
-excerpt: "AWS Elastic IP를 이용해 EC2 Server에 고정IP를 부여하는 방법"
+excerpt: "AWS Elastic IP를 이용해 EC2 Server에 고정 IP를 부여하는 방법"
 tags: [AWS, EC2, ElasticIP, Server]
 comments: false
 ---
@@ -43,7 +43,7 @@ EC2 Server에 접속하는 컴퓨터의 인터넷 연결에 따라 IP가 바뀌�
 
 #### Elastic IP (탄력적 IP) 연결 확인
 
-EC2 대시보드 인스턴스 항목에서 탄력적 IP (Elastic IP)가 연결된 것을 확인할 수 있다.
+EC2 대시보드 인스턴스 항목에서 Elastic IP(탄력적 IP)가 연결된 것을 확인할 수 있다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_6.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_6.JPG"></a>
