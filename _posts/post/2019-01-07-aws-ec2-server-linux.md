@@ -18,13 +18,13 @@ Linux환경에서 EC2 Server에 접속해 APM을 설치한다.
 AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_1.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_1.JPG"></a>
 </figure>
 
 연결 시 활성화 되는 창에 연결을 위한 DNS주소가 있기 때문에 해당 창을 종료하지 않는다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_2.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_2.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_2.JPG"></a>
 	<figcaption>연결을 위한 DNS주소</figcaption>
 </figure>
 
@@ -36,11 +36,11 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 `yes`입력으로 연결 성공
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_2_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_2_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_2_1.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_2_1.JPG"></a>
 </figure>
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_3.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_3.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_3.JPG"></a>
 	<figcaption>EC2 서버에 연결된 상태의 터미널 화면</figcaption>
 </figure>
 
@@ -59,14 +59,14 @@ AWS 인스턴스 상태에서 연결하기 위한 DNS서버를 받는다.
 위의 명령어를 순서대로 진행한 후 나의 AWS EC2 인스턴스 목록의 `IPv4 Public IP`를 주소창에 입력한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_4.JPG"></a>
 	<figcaption>IPv4 Public IP</figcaption>
 </figure>
 
 아래와 같은 화면이 뜨면 맞게 진행되고 있음을 알 수 있다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_5.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_5.JPG"></a>
 	<figcaption>EC2 Server HTTP 페이지</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 나머지는 모두 `Y`를 눌러서 설정하면 된다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_6.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_6.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_6.JPG"></a>
 	<figcaption>MySQL 설정</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq` 입력한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_7.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_7.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_7.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_7.JPG"></a>
 	<figcaption>텍스트 파일 수정</figcaption>
 </figure>
 
@@ -146,5 +146,5 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치 명령어 입력 중 본인이 지정한 MySQL password이다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_8.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"></a>
 </figure>

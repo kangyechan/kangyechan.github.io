@@ -16,21 +16,21 @@ EC2 Server에 접속하는 컴퓨터의 인터넷연결에 따라 IP가 바뀌�
 #### EC2 대시보드에서 탄력적 IP 선택
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_1.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_1.JPG"></a>
 </figure>
 
 #### 새 주소 할당
 
 <figure class="half">
-	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_2.JPG"></a>
-	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_3.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_2.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_2.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_3.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_3.JPG"></a>
 	<figcaption>이미지 클릭 시 확대</figcaption>
 </figure>
 
 #### 할당된 주소 연결
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_4.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_4.JPG"></a>
 </figure>
 
 #### 주소와 자신의 인스턴스 연결
@@ -38,7 +38,7 @@ EC2 Server에 접속하는 컴퓨터의 인터넷연결에 따라 IP가 바뀌�
 인스턴스에 구동중인 인스턴스를 선택한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_5.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_5.JPG"></a>
 </figure>
 
 #### Elastic IP (탄력적 IP) 연결 확인
@@ -46,7 +46,7 @@ EC2 Server에 접속하는 컴퓨터의 인터넷연결에 따라 IP가 바뀌�
 EC2 대시보드 인스턴스 항목에서 탄력적 IP (Elastic IP)가 연결된 것을 확인할 수 있다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_elastic/ip_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_elastic/ip_6.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_elastic/ip_6.JPG"><img src="{{site.url}}/assets/img/post/ec2_elastic/ip_6.JPG"></a>
 </figure>
 
 ## 중요

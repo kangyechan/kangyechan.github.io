@@ -20,8 +20,8 @@ EC2 Server에 접속하기 위해 PuTTY를 사용한다.
 페이지에서 `puttygen.exe` 파일과 `putty.exe` 파일 다운로드
 
 <figure class="half">
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_1.JPG"></a>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_2.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_1.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_2.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_2.JPG"></a>
 	<figcaption>이미지 클릭 시 확대</figcaption>
 </figure>
 
@@ -31,32 +31,32 @@ EC2 Server에 접속하기 위해 PuTTY를 사용한다.
 실행 후 아래와 같이 키를 생성하는 작업을 진행한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_3.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_3.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_3.JPG"></a>
 </figure>
 
 AWS에서 인스턴스 생성시 다운로드 받은 `pem`파일을 선택한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_4.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"></a>
 </figure>
 
 RSA룰 선택 후 Save private key를 선택한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_5.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_5.JPG"></a>
 </figure>
 
 암호문에 대한 경고창은 `예(Y)`를 눌러 무시한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_6.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_6.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_6.JPG"></a>
 </figure>
 
 Key로 생성된 PPK파일 이름을 지정해서 저장한다.  
 `apm_camp`로 지정했다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_7.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_7.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_7.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_7.JPG"></a>
 </figure>
 
 #### putty를 사용해 EC2 Server에 접속
@@ -65,8 +65,8 @@ Key로 생성된 PPK파일 이름을 지정해서 저장한다.
 `putty.exe`파일을 실행한다.
 
 <figure class="half">
-  <a href="{{site.url}}/assets/img/aws/ec2_windows/server_9.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_9.JPG"></a>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_8.JPG"></a>
+  <a href="{{site.url}}/assets/img/post/ec2_windows/server_9.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_9.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_8.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_8.JPG"></a>
 	<figcaption>이미지 클릭 시 확대</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ ec2-user@255.255.255.255 를 입력한다.
 `Browse..`버튼을 클릭해 `puttygen`으로 생성한 `.ppk`파일을 선택한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_10.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_10.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_10.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_10.JPG"></a>
 </figure>
 
 선택 후 Open버튼을 클릭하면  
@@ -85,7 +85,7 @@ ec2-user@255.255.255.255 를 입력한다.
 예(Y)를 눌러 콘솔창으로 넘어간다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_11.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_11.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_11.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_11.JPG"></a>
 </figure>
 
 #### 서버에 연결되었다. 아래의 터미널 명령어를 순서대로 입력해 APM을 설치한다.
@@ -103,14 +103,14 @@ ec2-user@255.255.255.255 를 입력한다.
 위의 명령어를 순서대로 진행한 후 나의 AWS EC2 인스턴스 목록의 `IPv4 Public IP`를 주소창에 입력한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_4.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_4.JPG"></a>
 	<figcaption>IPv4 Public IP</figcaption>
 </figure>
 
 아래와 같은 화면이 뜨면 맞게 진행되고 있음을 알 수 있다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_5.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_5.JPG"></a>
 	<figcaption>EC2 Server HTTP 페이지</figcaption>
 </figure>
 
@@ -153,7 +153,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 나머지는 모두 `Y`를 눌러서 설정하면 된다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_12.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_12.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_12.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_12.JPG"></a>
 	<figcaption>MySQL 설정</figcaption>
 </figure>
 
@@ -174,7 +174,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 아래 사진과 같이 두줄을 추가한 후 `esc`를 한번 누르고 `:wq` 입력한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_windows/server_13.JPG"><img src="{{site.url}}/assets/img/aws/ec2_windows/server_13.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_13.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_13.JPG"></a>
 	<figcaption>텍스트 파일 수정</figcaption>
 </figure>
 
@@ -190,5 +190,5 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
 phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치 명령어 입력 중 본인이 지정한 MySQL password이다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_linux/server_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_linux/server_8.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"><img src="{{site.url}}/assets/img/post/ec2_linux/server_8.JPG"></a>
 </figure>

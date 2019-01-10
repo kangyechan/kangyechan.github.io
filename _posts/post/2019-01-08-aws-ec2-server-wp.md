@@ -47,7 +47,7 @@ DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
 {% endhighlight %}
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_5.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_wp/wp_1.JPG"><img src="{{site.url}}/assets/img/post/ec2_wp/wp_1.JPG"></a>
 	<figcaption>데이터베이스 생성 및 설정</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ DATABASE이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
 입력 후 보안성을 위해 아래로 스크롤을 내려 암호값을 수정한다.  
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_6.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_wp/wp_2.JPG"><img src="{{site.url}}/assets/img/post/ec2_wp/wp_2.JPG"></a>
 	<figcaption>데이터베이스 생성 및 설정</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Amazon Linux에서는 다른 방식으로 사용한다.
 `esc`를 누른 후 `:wq`를 입력해 저장
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_4.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_wp/wp_3.JPG"><img src="{{site.url}}/assets/img/post/ec2_wp/wp_3.JPG"></a>
 	<figcaption>퍼머링크 권한 허용</figcaption>
 </figure>
 
@@ -133,7 +133,7 @@ Amazon Linux에서는 다른 방식으로 사용한다.
 이번 설치에서는 한국어로 설치했지만 자신있는 언어로 해도 무관하다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_wp/wp_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_wp/wp_4.JPG"></a>
 	<figcaption>언어 설정</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ Amazon Linux에서는 다른 방식으로 사용한다.
 관리자 비밀번호를 입력하고 나머지 정보도 입력 후 설치를 진행한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_2.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_wp/wp_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_wp/wp_5.JPG"></a>
 	<figcaption>언어 설정</figcaption>
 </figure>
 
@@ -151,6 +151,6 @@ Amazon Linux에서는 다른 방식으로 사용한다.
 설치가 완료되면 입력한 ID와 비밀번호를 사용해 관리자모드로 로그인 할 수 있다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_wp/wp_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_wp/wp_3.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_wp/wp_6.JPG"><img src="{{site.url}}/assets/img/post/ec2_wp/wp_6.JPG"></a>
 	<figcaption>언어 설정</figcaption>
 </figure>

@@ -14,8 +14,8 @@ comments: false
 ### AWS 회원가입
 
 <figure class="half">
-	<a href="{{site.url}}/assets/img/aws/aws_join/main.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/main.JPG"></a>
-	<a href="{{site.url}}/assets/img/aws/aws_join/join_1.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/join_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/aws_join/main.JPG"><img src="{{site.url}}/assets/img/post/aws_join/main.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/aws_join/join_1.JPG"><img src="{{site.url}}/assets/img/post/aws_join/join_1.JPG"></a>
 	<figcaption>AWS Home</figcaption>
 </figure>
 
@@ -27,13 +27,13 @@ AWS Educate에듀케이션 계정이 필요없는 경우에는 사용하는 mail
 계정유형은 프로페셔널로 선택하고 나머지 항목은 영어로 작성한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/aws_join/join_2.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/join_2.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/aws_join/join_2.JPG"><img src="{{site.url}}/assets/img/post/aws_join/join_2.JPG"></a>
 </figure>
 
 #### AWS 결제정보 입력
 
 <figure>
-  <a href="{{site.url}}/assets/img/aws/aws_join/join_3.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/join_3.JPG"></a>
+  <a href="{{site.url}}/assets/img/post/aws_join/join_3.JPG"><img src="{{site.url}}/assets/img/post/aws_join/join_3.JPG"></a>
   <figcaption>AWS 결제정보 입력</figcaption>
 </figure>
 

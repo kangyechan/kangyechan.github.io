@@ -15,8 +15,8 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 #### EC2 인스턴스 가상 서버 시작하기 (Windows, MAC 동일)
 
 <figure class="half">
-	<a href="{{site.url}}/assets/img/aws/aws_main.JPG"><img src="{{site.url}}/assets/img/aws/aws_main.JPG"></a>
-	<a href="{{site.url}}/assets/img/aws/ec2_start.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/main.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/main.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_1.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_1.JPG"></a>
 	<figcaption>EC2 서비스 시작</figcaption>
 </figure>
 
@@ -25,19 +25,19 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 #### 인스턴스 환경 설정 과정
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_1.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_2.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_2.JPG"></a>
 </figure>
 
 #### AMI(Amazon Machine Image)선택
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_2.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_2.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_3.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_3.JPG"></a>
 </figure>
 
 #### 인스턴스 유형 선택
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_3.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_3.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_4.JPG"></a>
 </figure>
 
 #### 인스턴스 세부 정보 수정
@@ -45,7 +45,7 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 별도의 수정사항 없이 다음으로 넘어간다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_4.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_4.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_5.JPG"></a>
 </figure>
 
 #### 서비스로 사용할 스토리지 추가
@@ -53,7 +53,7 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 별도의 수정사항 없이 다음으로 넘어간다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_5.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_5.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_6.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_6.JPG"></a>
 </figure>
 
 #### 태그 추가
@@ -61,7 +61,7 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 별도의 수정사항 없이 다음으로 넘어간다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_6.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_6.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_7.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_7.JPG"></a>
 </figure>
 
 #### 보안 그룹 구성
@@ -70,8 +70,8 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 규칙을 선택하면 Port Range는 사진과 같이 자동으로 설정된다.
 
 <figure class="half">
-	<a href="{{site.url}}/assets/img/aws/ec2_start_7.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_7.JPG"></a>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_8.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_8.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_8.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_8.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_9.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_9.JPG"></a>
 	<figcaption>사진 클릭 시 확대</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ AWS 클라우드 서비스를 통해 데이터를 지속적으로 유지 가능�
 특별히 수정한 부분이 많이 없기 때문에 시작으로 넘어간다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_9.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_9.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_10.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_10.JPG"></a>
 </figure>
 
 #### 키 페어 생성하기
@@ -96,7 +96,7 @@ Windows 환경에서는 해당 파일도 함께 필요하다.
 서버에 접속할때 pem파일이 필요하기 때문에 다운로드 받은 경로를 잘 기억해 둔다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_10.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_10.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_11.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_11.JPG"></a>
 	<figcaption>서버 접속을 위한 키 페어 생성 과정</figcaption>
 </figure>
 
@@ -105,12 +105,12 @@ Windows 환경에서는 해당 파일도 함께 필요하다.
 생성 완료되면 아래와 같은 화면을 확인할 수 있다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_11.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_11.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_12.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_12.JPG"></a>
 	<figcaption>서버 생성 완료 알림</figcaption>
 </figure>
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/ec2_start_12.JPG"><img src="{{site.url}}/assets/img/aws/ec2_start_12.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_server/start_13.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_13.JPG"></a>
 	<figcaption>구동중인 내 서버 상태</figcaption>
 </figure>
 
