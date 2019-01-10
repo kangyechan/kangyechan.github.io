@@ -14,24 +14,26 @@ comments: false
 ### AWS 회원가입
 
 <figure class="half">
-	<a href="{{site.url}}/assets/img/aws/aws_main.JPG"><img src="{{site.url}}/assets/img/aws/aws_main.JPG"></a>
-	<a href="{{site.url}}/assets/img/aws/aws_join.JPG"><img src="{{site.url}}/assets/img/aws/aws_join.JPG"></a>
+	<a href="{{site.url}}/assets/img/aws/aws_join/main.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/main.JPG"></a>
+	<a href="{{site.url}}/assets/img/aws/aws_join/join_1.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/join_1.JPG"></a>
 	<figcaption>AWS Home</figcaption>
 </figure>
 
 먼저 AWS 회원가입을 진행한다.  
-AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 한다. (example@handong.edu)  
+AWS Educate에 가입하기 위해서는 반드시 학교 mail을 사용해야 한다.  
+(example@handong.edu)  
+AWS Educate에듀케이션 계정이 필요없는 경우에는 사용하는 mail주소를 입력한다.
 
 계정유형은 프로페셔널로 선택하고 나머지 항목은 영어로 작성한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/aws/aws_join_1.JPG"><img src="{{site.url}}/assets/img/aws/aws_join_1.JPG"></a>
+	<a href="{{site.url}}/assets/img/aws/aws_join/join_2.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/join_2.JPG"></a>
 </figure>
 
 #### AWS 결제정보 입력
 
 <figure>
-  <a href="{{site.url}}/assets/img/aws/aws_join_2.JPG"><img src="{{site.url}}/assets/img/aws/aws_join_2.JPG"></a>
+  <a href="{{site.url}}/assets/img/aws/aws_join/join_3.JPG"><img src="{{site.url}}/assets/img/aws/aws_join/join_3.JPG"></a>
   <figcaption>AWS 결제정보 입력</figcaption>
 </figure>
 
