@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AWS Educate 계정 가입"
-date: 2018-01-03
+date: 2019-01-03
 excerpt: "무료 크레딧 AWS Educate 계정 가입 절차"
 tags: [AWS, Educate, Educate Starter]
 comments: false
@@ -10,6 +10,8 @@ comments: false
 AWS Educate는 기존 계정 용량에 더하여 연 100달러의 크레딧을 추가로 받을 수 있다. (매년 갱신 가능)  
 AWS Educate Starter는 실습계정과 같은 개념으로 1인당 75달러의 크레딧을 제공하며 소진 시 계정이 중지된다.  
 (결제 카드 등록 X)
+
+Educate Starter는 속도제한 및 이용에 제한이 있기 때문에 Educate계정을 사용하는것을 권장한다.
 
 ### AWS Educate & AWS Educate Starter
 

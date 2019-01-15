@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AWS 무료 계정 가입"
-date: 2018-01-02
+date: 2019-01-02
 excerpt: "AWS 무료 계정 가입 과정"
 tags: [AWS, Cloud, Server]
 comments: false
