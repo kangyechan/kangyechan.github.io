@@ -61,5 +61,41 @@ Account ID 입력 후 메일인증 진행
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/aws_edu/result.JPG"><img src="{{site.url}}/assets/img/post/aws_edu/result.JPG"></a>
-	<figcaption>AWS Educate 가입 확인</figcaption>
+	<figcaption>AWS Educate 가입 인증 메일 확인</figcaption>
 </figure>
+
+#### 소속 교육기관 인증 후 서비스 진행 절차
+
+1~3일 사이에 AWS에서 인증 완료 메일을 받게되면  
+메일을 통해 AWS Educate계정 비밀번호를 설정할 수 있다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/post/aws_edu/edustart_1.JPG"><img src="{{site.url}}/assets/img/post/aws_edu/edustart_1.JPG"></a>
+	<figcaption>AWS Educate 비밀번호 설정</figcaption>
+</figure>
+
+비밀번호 설정 후 `https://www.awseducate.com/`에 접속해 로그인을 진행한다.  
+진행 후 아래 사진과 같은 절차를 통해 AWS 콘솔로 접근한다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/post/aws_edu/edustart_2.JPG"><img src="{{site.url}}/assets/img/post/aws_edu/edustart_2.JPG"></a>
+	<figcaption>AWS Educate 계정 콘솔 시작</figcaption>
+</figure>
+
+<figure>
+	<a href="{{site.url}}/assets/img/post/aws_edu/edustart_3.JPG"><img src="{{site.url}}/assets/img/post/aws_edu/edustart_3.JPG"></a>
+</figure>
+
+<figure>
+	<a href="{{site.url}}/assets/img/post/aws_edu/edustart_4.JPG"><img src="{{site.url}}/assets/img/post/aws_edu/edustart_4.JPG"></a>
+</figure>
+
+위의 접근절차를 거치게되면 아래 사진과 같은 정보로 로그인되게 된다.  
+Educate Starter계정의 경우 US East 1st서버만 사용할 수 있어 속도에 제한이 있다.  
+일반 Educate계정은 서울을 서버로 사용할 수 있다.
+
+<figure>
+	<a href="{{site.url}}/assets/img/post/aws_edu/edustart_5.JPG"><img src="{{site.url}}/assets/img/post/aws_edu/edustart_5.JPG"></a>
+</figure>
+
+이후 인스턴스를 사용하는 방법은 이어지는 post에서 진행할 수 있다.
