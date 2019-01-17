@@ -31,7 +31,7 @@ EC2 Server 에 접속하기 위해 PuTTY 를 사용한다.
 실행 후 아래와 같이 키를 생성하는 작업을 진행한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/post/ec2_windows/server_3.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_3.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"></a>
 </figure>
 
 AWS에서 인스턴스 생성시 다운로드 받은 `pem`파일을 선택한다.
