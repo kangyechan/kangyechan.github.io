@@ -29,6 +29,7 @@ AWS 클라우드 서비스를 통해 데이터를 지속해서 유지 가능한 
 </figure>
 
 #### AMI(Amazon Machine Image)선택
+2018.03.0 버전을 선택한다.
 
 <figure>
 	<a href="{{site.url}}/assets/img/post/ec2_server/start_3.JPG"><img src="{{site.url}}/assets/img/post/ec2_server/start_3.JPG"></a>
