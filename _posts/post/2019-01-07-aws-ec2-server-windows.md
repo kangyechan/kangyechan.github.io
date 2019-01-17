@@ -103,14 +103,14 @@ ex) 본인의 AWS 인스턴스 Public IP가 `255.255.255.255` 라면
 위의 명령어를 순서대로 진행한 후 나의 AWS EC2 인스턴스 목록의 `IPv4 Public IP`를 주소창에 입력한다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_4.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_12.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_12.JPG"></a>
 	<figcaption>IPv4 Public IP</figcaption>
 </figure>
 
 아래와 같은 화면이 뜨면 맞게 진행되고 있음을 알 수 있다.
 
 <figure>
-	<a href="{{site.url}}/assets/img/post/ec2_windows/server_5.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_5.JPG"></a>
+	<a href="{{site.url}}/assets/img/post/ec2_windows/server_13.JPG"><img src="{{site.url}}/assets/img/post/ec2_windows/server_13.JPG"></a>
 	<figcaption>EC2 Server HTTP 페이지</figcaption>
 </figure>
 
