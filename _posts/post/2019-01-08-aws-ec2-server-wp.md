@@ -89,8 +89,6 @@ DATABASE 이름에 대해서는 \`(숫자 1 왼쪽의 ~의 위치에 있는 특�
 
 {% highlight html %}
  cp -r wordpress/* /var/www/html/ // wordpress폴더의 파일들을 복사
- mkdir /var/www/html/blog // blog 폴더 생성
- cp -r wordpress/* /var/www/html/blog/ // blog폴더 내에 wordpress폴더의 파일들을 복사
 {% endhighlight %}
 
 #### 퍼머링크(permalinks)사용 방법
