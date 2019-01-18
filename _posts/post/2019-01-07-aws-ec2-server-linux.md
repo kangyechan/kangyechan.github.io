@@ -141,7 +141,7 @@ Set root password? [Y/n]에서 `Y`를 입력한 후
  sudo service httpd restart
 {% endhighlight %}
 
-여기까지 설치를 진행한 후 인터넷 주소창에 IPv4 Public IP/phpMyAdmin 으로 접속하면  
+여기까지 설치를 진행한 후 인터넷 주소창에 IPv4 Public IP/phpmyadmin 으로 접속하면  
 아래와 같은 창이 확인된다.
 phpMyAdmin 로그인 ID는 `root`이며 비밀번호는 설치명령어 입력 중 본인이 지정한 MySQL password 이다.
 
